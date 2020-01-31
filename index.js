@@ -4,16 +4,7 @@ const server = express();
 server.use(express.json());
 server.listen(3000);
 
-const projects = [
-    {
-        id: "1",
-        title: "Projeot 01",
-        tasks: [
-            "tarefa 01",
-            "tarefa 02",
-        ]
-    },
-]
+const projects = []
 
 var requestCount = 0;
 
